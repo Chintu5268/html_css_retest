@@ -1,0 +1,111 @@
+body{
+  background-color: black;
+}
+.box{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(red,green,rgb(38, 200, 255),yellow,pink,black);
+  animation-name: chintu;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: relative;
+  text-align: center;
+  color: rgb(17, 2, 2);
+
+}
+
+@keyframes chintu{
+  0%{
+    left:0px;
+    top: 0px;
+    rotate:-360deg;
+  }
+  
+  25%{
+   left: 1100px;
+   top: 0px;
+   rotate: 360deg;
+
+
+  }
+  50%{
+    left:1100px;
+    top: 500px;
+    rotate:-360deg;
+
+  }
+  75%{
+    left:0px;
+    top: 500px;
+   rotate: 360deg;
+
+  }
+  100%{
+    top:0px;
+    left: 0px;
+  }
+}
+
+h1{
+  margin-left: 300px;
+  color: #fff;
+  font-size: 150px;
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+body{
+  background-color: black;
+}
+.box{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: radial-gradient(red,green,rgb(38, 200, 255),yellow,pink,black);
+  animation-name: chintu;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: relative;
+  text-align: center;
+  color: rgb(17, 2, 2);
+}
+
+@keyframes chintu{
+  0%{
+    left:0px;
+    top: 0px;
+    rotate:-360deg;
+  }
+  
+  25%{
+   left: 280px;
+   top: 0px;
+   rotate: 360deg;
+
+
+  }
+  50%{
+    left:280px;
+    top: 300px;
+    rotate:-360deg;
+
+  }
+  75%{
+    left:0px;
+    top: 300px;
+   rotate: 360deg;
+
+  }
+  100%{
+    top:0px;
+    left: 0px;
+  }
+}
+
+h1{
+  margin-top: 100px;
+  margin-left: 110px;
+  color: #fff;
+  font-size: 26px;
+}
+}
